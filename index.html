@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple touch icon" href="img/apple-touch-icon.png" type="png">
+
+    <title>Stone Paper Scissors</title>
+</head>
+
+<body>
+    <div class="scene">
+        <div class="cube">
+            <div class="face back">
+                <div class="battery">
+                    <div class="circle"></div>
+                    <div class="rectangle">
+                        <div class="cover"></div>
+                    </div>
+                </div>
+                <div class="modecover"><input type="range" class="mode" min="0" max="2" step="1" value="0">
+                    <h4></h4>
+                </div>
+            </div>
+            <div class="face right"></div>
+            <div class="face left"></div>
+            <div class="face top"></div>
+            <div class="face bottom"></div>
+            <div class="face front">
+                <div class="container">
+                    <div class="playground">
+                        <div class="settingcover">
+                            <button class="setting-btn">
+                                <i class="fas fa-cog" id="gear-icon"></i>
+                            </button>
+                        </div>
+                        <div class="select">
+                            <div class="announcement"></div><button class="start">Start</button>
+                            <div class="move">
+                                <div class="playermove"><img src="" alt=""></div>
+                                <div class="aimove"><img src="" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="choice">
+                        <div class="rock"><img src="img/rock.png" width="50px" height="60px"></div>
+                        <div class="paper"><img src="img/paper.png" width="50px" height="60px" alt=""></div>
+                        <div class="scissors"><img src="img/scissors.png" width="50px" height="60px" alt=""></div>
+                    </div>
+                    <h2>Score Card</h2>
+                    <div class="score">
+                        <h4 class="playerscore">0</h4>
+                        <h4 class="browserscore">0</h4>
+                    </div><button class="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio src="optionsound.mp3" class="optionsound" preload="auto" volume="0.7"></audio>
+    <audio src="selectedsound.wav" class="selectedsound"></audio>
+    <audio src="sounds/winaudio.mp3" class="winsound"></audio>
+    <audio src="sounds/loseaudio.mp3" class="losesound"></audio>
+    <audio src="sounds/wheelaudio.mp3" class="wheelsound" volume="0.1"></audio>
+    <audio src="sounds/tiktokaudio.mp3" class="tiktoksound"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
