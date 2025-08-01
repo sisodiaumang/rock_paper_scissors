@@ -1,0 +1,2 @@
+# rock_paper_scissors
+A modern, fully interactive Rock-Paper-Scissors game built with HTML, CSS, and Vanilla JavaScript. Features sound effects, animated UI, AI difficulty modes (Easy/Medium/Hard), and a 3D rotating cube-style interface.  🚀 Features 🎲 AI with adjustable difficulty  🔊 Sound effects (selection, outcome, UI actions)  🧠 Game logic with win/loss handling and scoreboard  📱 Fully responsive design  🧩 Interactive settings panel  🎨 Custom range slider and CSS animations  🕹️ Built from scratch with no frameworks
